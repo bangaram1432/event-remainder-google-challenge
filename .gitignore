@@ -1,0 +1,26 @@
+# Dependencies and package managers
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js and Vercel build output (committing these is the classic way to blow the 10 MB limit)
+.next/
+out/
+build/
+dist/
+.vercel/
+next-env.d.ts
+
+# Environment and secrets: never commit keys
+.env
+.env.*
+!.env.example
+*.pem
+
+# Coverage, logs and tooling output
+coverage/
+*.log
+*.tsbuildinfo
+
+# OS files
+.DS_Store
